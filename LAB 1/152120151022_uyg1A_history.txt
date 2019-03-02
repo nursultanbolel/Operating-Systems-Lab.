@@ -1,0 +1,38 @@
+1  cd Desktop   --> Çalışma yolunda öğrenci numarası ile klasör açılır.Tüm işlemler terminal aracılığıyla bu klasörün içerisinde gerçekleştirilir.                                         
+   mkdir 152120151022
+   cd 152120151022
+   gedit 152120151022_uyg1A.c
+
+
+2  gcc 152120151022_uyg1A.c -o 152120151022_uyg1A    --> Terminalerminal komutu ile derlenmiş dosya(152120151022_uyg1A.c ) çalıştırılır ve programın ürettiği çıktı (152120151022_uyg1A_output.txt) dosyasına yönlendirilir.
+   ./152120151022_uyg1A   
+   ./152120151022_uyg1A > 152120151022_uyg1A_output.txt  --> İlk çalıştırmanın kaydedilmesi
+   cat 152120151022_uyg1A_output.txt
+   ./152120151022_uyg1A >> 152120151022_uyg1A_output.txt   -->İkinci çalıştırmanın kaydedilmesi
+   cat 152120151022_uyg1A_output.txt
+
+3  cd ..     -->Çalışma klasörü ve içeriğinin kopyasını oluşturabilmek için farklı bir yola(Desktop) yeni klasör(152120151022_cpy) yaratılır.
+   mkdir 152120151022_cpy
+
+4  cp -r 152120151022/ -d  152120151022_cpy   -->Klon klasörün içerisindeki dosyaların isimlerinin sonuna da “_cpy” ibaresi eklenerek dosyalar yeni yola kopyalanır.
+   cd 152120151022_cpy
+   mv 152120151022_uyg1A.c  152120151022_uyg1A_cpy.c
+   mv 152120151022_uyg1A_out  152120151022_uyg1A_out_cpy
+   mv 152120151022_uyg1A_output.txt  152120151022_uyg1A_output_cpy.txt
+   
+
+5  cd ..   --> Çalışma yolunda yalnızca orijinal klasör ve klon klasörün içeriği listelenir; ilgili listeler daha önce program çıktılarının da tutulduğu çıktı dosyasının (152120151022_uyg1A_output.txt) sonuna eklenir.
+   ls 1521201510*
+   ls 1521201510* >> 152120151022/152120151022_uyg1A_output.txt
+
+
+6  rm -rf 152120151022_cpy   -->Klon klasör ve içeriği tek satırlık terminal komutu ile yok edilir.
+
+
+7  cd 152120151022   -->Sadece prosedürdeki işlemleri içerecek şekilde çalışma sırasında kullanılmış ve satırlar arasında tekrar etmeyen terminal komutları açıklamaları ile birlikte "152120151022_uyg1A_history.txt" dosyasına yazılır.
+   gedit 152120151022_uyg1A_history.txt
+   history > 152120151022_uyg1A_history.txt
+
+
+
+
