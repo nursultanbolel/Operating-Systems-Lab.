@@ -1,0 +1,25 @@
+PID: 3802, PPID: 3800: Çocuk 2
+PID: 3802, PPID: 3800, Bekliyor
+PID: 3802, PPID: 3800, Bekleme bitti
+PID: 3801, PPID: 3800: Çocuk 1 
+PID: 3804, PPID: 3801: Torun 1 
+     3804 çalışma yolunu ve içeriğini basar
+PID: 3804, PPID: 3801, Bekliyor 
+PID: 3804, PPID: 3801, Bekleme bitti
+PID: 3801, PPID: 3800: Çocuk 1 
+PID: 3801 Çocuk 1 torunlarını bekliyor
+PID: 3801, beklemesi biten torun: 3804 
+PID: 3800, PPID: 3645: Ebeveyn 
+     3800  logs isminde bir klasör oluşturur
+PID: 3800, PPID: 3645, Bekliyor
+PID: 3800, PPID: 3645, Bekleme bitti
+PID: 3801, PPID: 3800: Çocuk 1 
+PID: 3805, PPID: 3801: Torun 2 
+     3805  işletim  sistemi  üzerinde  koşan üstteki proses  ağacını  basar
+PID: 3805, PPID: 3801, Bekliyor  
+PID: 3805, PPID: 1312, Bekleme bitti  
+PID: 3801, PPID: 3800: Çocuk 1 
+PID: 3806, PPID: 3801: Torun 3 
+     3806 işletim sisteminde oturum açan kişiyi ve oturum detayını basar
+PID: 3806, PPID: 3801, Bekliyor
+PID: 3806, PPID: 1312, Bekleme bitti
