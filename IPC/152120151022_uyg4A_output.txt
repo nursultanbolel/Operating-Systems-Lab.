@@ -1,0 +1,13 @@
+Pipe was created successfully...
+Child         -> My PID is 3880, PPID is 3878
+Child         -> Incoming message from child is: I'll try to kill you when your time is up!
+Terminating PID: 3880, PPID: 3878
+Pipe was created successfully...
+Parent        -> Pipe was created succesfully...
+Parent        -> My PID is 3878, PPID is 3850
+Parent        -> Alarm clock time: 10 (a run argument by user)
+Parent        -> The number is even, the message is about "KILLING"
+Parent        -> Alarm clock signal was scheduled in 10 seconds...
+Alarm Handler -> Alarm clock signal has been received.
+Parent        -> Child is tried to be killed.
+Terminating PID: 3878, PPID: 3850

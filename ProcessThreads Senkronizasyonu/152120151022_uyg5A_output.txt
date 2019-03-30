@@ -1,0 +1,12 @@
+ 0. 			--> Hadi baslayalim...
+ 1. (kafa ) Gozluk
+ 2. (govde) Gomlek
+ 3. (bacak) Pantolon
+ 4. (bacak) Kemer
+ 5. (ayak ) Corap
+ 6. (govde) Kravat	--> Kalan oge sayisi : 5
+ 7. (govde) Ceket	--> Kalan oge sayisi : 4
+ 8. (govde) Mont	--> Kalan oge sayisi : 3
+ 9. (kafa ) Sapka	--> Kalan oge sayisi : 2
+10. (bacak) Cuzdan	--> Kalan oge sayisi : 1
+11. (ayak ) Ayakkabi	--> Hazirim...
