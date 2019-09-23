@@ -1,0 +1,30 @@
+
+nur@nur-ubuntu:~$ ./152120151022_uyg3A.output 4900 2 workA 470 workB 750 > 152120151022_uyg3A_output.txt
+
+
+Main Function        -> Duration:4900
+Main Function        -> Number of words:2
+
+
+
+workA: 
+workB: 
+
+
+
+workA: 
+workB: 
+
+
+
+workA: 
+workB: 
+
+
+
+workA: 
+workB: 
+
+
+
+workA: 
